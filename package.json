@@ -1,6 +1,6 @@
 {
   "name": "@m4thieulavoie/linting",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "My opiniated set of linting rules",
   "scripts": {
     "lint": "eslint --ext .js, ./ && npx stylelint \"src/**/*.scss\"",
