@@ -1,6 +1,6 @@
 {
   "name": "@m4thieulavoie/linting",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "My opiniated set of linting rules",
   "files": [
     "/eslint",
