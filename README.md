@@ -9,6 +9,12 @@
 
 My opiniated set of linting rules
 
+## Installation
+
+```bash
+npm i -D @m4thieulavoie/linting
+```
+
 ## Usage
 
 ### eslint
