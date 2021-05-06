@@ -3,7 +3,6 @@
   "version": "0.0.4",
   "description": "My opiniated set of linting rules",
   "files": [
-    "/eslint",
     "/stylelint"
   ],
   "scripts": {

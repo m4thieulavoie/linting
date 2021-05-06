@@ -1,5 +1,8 @@
-const baseConfig = require.resolve("./eslint/index.js");
-
 module.exports = {
-  extends: baseConfig,
+  extends: "prettier",
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
+  rules: {
+    "arrow-body-style": ["error", "as-needed"],
+  },
 };
