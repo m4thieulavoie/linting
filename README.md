@@ -8,3 +8,24 @@
 [![Downloads](https://img.shields.io/npm/dm/@m4thieulavoie/linting.svg)](https://www.npmjs.com/package/@m4thieulavoie/linting)
 
 My opiniated set of linting rules
+
+## Usage
+
+### eslint
+
+```js
+// .eslintrc.js
+
+module.exports = {
+  extends: require.resolve("@m4thieulavoie/linting"),
+};
+```
+
+### stylelint
+
+```json
+// .stylelintrc.json
+{
+  "extends": ["@m4thieulavoie/linting/stylelint"]
+}
+```
