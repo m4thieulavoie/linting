@@ -2,6 +2,7 @@
   "name": "@m4thieulavoie/linting",
   "version": "0.0.6",
   "description": "My opiniated set of linting rules",
+  "main": ".eslintrc.js",
   "scripts": {
     "lint": "eslint --ext .js, ./ && npx stylelint \"src/**/*.scss\"",
     "publish:patch": "npm version patch && npm publish && git push",
