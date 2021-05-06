@@ -2,9 +2,6 @@
   "name": "@m4thieulavoie/linting",
   "version": "0.0.5",
   "description": "My opiniated set of linting rules",
-  "files": [
-    "/stylelint"
-  ],
   "scripts": {
     "lint": "eslint --ext .js, ./ && npx stylelint \"src/**/*.scss\"",
     "publish:patch": "npm version patch && npm publish && git push",
