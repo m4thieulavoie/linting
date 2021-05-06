@@ -1,0 +1,53 @@
+{
+  "name": "@m4thieulavoie/linting",
+  "version": "0.0.1",
+  "description": "My opiniated set of linting rules",
+  "files": [
+    "/eslint",
+    "/stylelint"
+  ],
+  "scripts": {
+    "lint": "eslint --ext .js, ./ && npx stylelint \"src/**/*.scss\"",
+    "publish:patch": "npm version patch && npm publish && git push",
+    "publish:minor": "npm version minor && npm publish && git push",
+    "publish:major": "npm version major && npm publish && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m4thieulavoie/linting.git"
+  },
+  "keywords": [
+    "eslint",
+    "stylelint",
+    "lint",
+    "linting"
+  ],
+  "author": "Mathieu Lavoie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m4thieulavoie/linting/issues"
+  },
+  "homepage": "https://github.com/m4thieulavoie/linting#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "4.22.1",
+    "@typescript-eslint/parser": "4.22.1",
+    "eslint": "7.25.0",
+    "eslint-config-prettier": "8.3.0",
+    "stylelint": "13.13.1",
+    "stylelint-config-prettier": "8.0.2",
+    "stylelint-config-standard": "22.0.0",
+    "stylelint-scss": "3.19.0",
+    "typescript": "4.2.4"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "stylelint": "^13.0.0",
+    "stylelint-config-prettier": "^8.0.0",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-scss": "^3.0.0",
+    "typescript": "^4.2.0"
+  }
+}
