@@ -4,7 +4,7 @@
   "description": "My opiniated set of linting rules",
   "main": ".eslintrc.js",
   "scripts": {
-    "lint": "eslint --ext .js, ./ && npx stylelint \"src/**/*.scss\"",
+    "lint": "eslint --ext .ts, ./ && npx stylelint \"src/**/*.scss\"",
     "publish:patch": "npm version patch && npm publish && git push",
     "publish:minor": "npm version minor && npm publish && git push",
     "publish:major": "npm version major && npm publish && git push"
@@ -30,6 +30,7 @@
     "@typescript-eslint/parser": "4.23.0",
     "eslint": "7.26.0",
     "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-functional": "3.2.1",
     "stylelint": "13.13.1",
     "stylelint-config-prettier": "8.0.2",
     "stylelint-config-standard": "22.0.0",

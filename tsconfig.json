@@ -1,0 +1,4 @@
+{
+  "include": ["src/index.ts", "stylelint/index.js", ".eslintrc.js"],
+  "files": ["src/**/*.ts"]
+}
