@@ -1,8 +1,9 @@
 module.exports = {
   extends: "prettier",
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint", "functional"],
+  plugins: ["@typescript-eslint", "functional", "import"],
   rules: {
+    "import/order": "error",
     "arrow-body-style": ["error", "as-needed"],
     "functional/prefer-readonly-type": [
       "error",
