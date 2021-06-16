@@ -1,7 +1,7 @@
 module.exports = {
   extends: "prettier",
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint", "functional", "import"],
+  plugins: ["@typescript-eslint", "functional", "import", "inclusive-language"],
   rules: {
     "import/order": "error",
     "arrow-body-style": ["error", "as-needed"],
@@ -19,6 +19,7 @@ module.exports = {
         checkParameterProperties: false,
       },
     ],
+    "inclusive-language/use-inclusive-words": "error"
   },
   parserOptions: {
     project: ["./tsconfig.json"],
