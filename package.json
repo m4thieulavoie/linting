@@ -1,6 +1,6 @@
 {
   "name": "@m4thieulavoie/linting",
-  "version": "0.0.12",
+  "version": "0.1.0",
   "description": "My opiniated set of linting rules",
   "main": ".eslintrc.js",
   "scripts": {
