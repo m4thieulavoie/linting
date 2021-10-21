@@ -19,4 +19,5 @@ module.exports = {
     "max-nesting-depth": 3,
     "selector-no-qualifying-type": null,
   },
+  customSyntax: "postcss-scss",
 };
