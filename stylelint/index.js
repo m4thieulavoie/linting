@@ -18,6 +18,7 @@ module.exports = {
     "string-quotes": "double",
     "max-nesting-depth": 3,
     "selector-no-qualifying-type": null,
+    "alpha-value-notation": "number",
   },
   customSyntax: "postcss-scss",
 };
