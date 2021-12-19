@@ -21,6 +21,7 @@ module.exports = {
     "alpha-value-notation": "number",
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": true,
+    "no-descending-specificity": null,
   },
   customSyntax: "postcss-scss",
 };
