@@ -19,6 +19,8 @@ module.exports = {
     "max-nesting-depth": 3,
     "selector-no-qualifying-type": null,
     "alpha-value-notation": "number",
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
   },
   customSyntax: "postcss-scss",
 };

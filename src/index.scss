@@ -1,4 +1,10 @@
+@mixin test() {
+  color: #fff;
+}
+
 body {
+  @include test();
+
   margin: 0;
 
   p {
