@@ -22,6 +22,7 @@ module.exports = {
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": true,
     "no-descending-specificity": null,
+    "function-no-unknown": [true, {ignoreFunctions: ["lighten", "darken"]}]
   },
   customSyntax: "postcss-scss",
 };
