@@ -33,7 +33,7 @@
     "eslint-plugin-functional": "6.0.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-inclusive-language": "2.2.1",
-    "postcss": "8.4.38",
+    "postcss": "8.4.41",
     "postcss-scss": "4.0.9",
     "stylelint": "16.8.1",
     "stylelint-config-standard": "36.0.1",
