@@ -38,7 +38,7 @@
     "stylelint": "16.6.1",
     "stylelint-config-standard": "36.0.1",
     "stylelint-order": "6.0.4",
-    "stylelint-scss": "6.3.2"
+    "stylelint-scss": "6.5.0"
   },
   "devDependencies": {
     "typescript": "5.5.2"
