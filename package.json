@@ -41,7 +41,7 @@
     "stylelint-scss": "6.5.0"
   },
   "devDependencies": {
-    "typescript": "5.5.2"
+    "typescript": "5.5.4"
   },
   "peerDependencies": {
     "typescript": "^5.5.0"
